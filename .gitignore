@@ -1,17 +1,29 @@
-# Ignore Play! working directory #
-bin/
-/db
-.eclipse
-/lib/
-/logs/
-/modules
-/project/project
-/project/target
-/target
-tmp/
-test-result
-server.pid
+logs
+project/project
+project/target
+target
+tmp
+.history
+dist
+.idea
 *.iml
-*.eml
-/dist/
+/out
+.idea_modules
+.classpath
+.project
+/RUNNING_PID
+.settings
+
+# temp files
+.~*
+*~
+*.orig
+
+# eclipse
+.scala_dependencies
+.buildpath
 .cache
+.target
+bin/
+
+
